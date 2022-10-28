@@ -1,77 +1,74 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@rajavetrivel 
-erensenell
-/
-sample-login-page
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-sample-login-page/index.html
-@erensenell
-erensenell Update index.html
-Latest commit 5ef1093 on Aug 12
- History
- 1 contributor
-35 lines (33 sloc)  925 Bytes
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Eren Şenel | Login Menü</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+	<meta charset="UTF-8">
+	<title>Instagram Login Page</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <div class="login-box">
-        <h2>Giriş</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Kullanıcı Adı</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Şifre</label>
-          </div>
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Gönder
-          </a>
-        </form>
-      </div>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="top">
+			<div class="logo">
+				<img src="instagram.png" alt="instagram" style="width: 175px;">
+			</div>
+			<div class="form">
+				<div class="input_field">
+					<input type="text" placeholder="Phone number, username, or email" class="input">
+				</div>
+				<div class="input_field">
+					<input type="password" placeholder="Password" class="input">
+				</div>
+				<div class="btn"><a href="#">Log In</a></div>
+			</div>
+			<div class="or">
+				<div class="line"></div>
+				<p>OR</p>
+				<div class="line"></div>
+			</div>
+			<div class="dif">
+				<div class="fb">
+					<img src="facebook.png" alt="facebook">
+					<p>Log in with Facebook</p>
+				</div>
+				<div class="forgot">
+					<a href="#">Forgot password?</a>
+				</div>
+			</div>
+		</div>
+		<div class="signup">
+			<p>Don't have an account? <a href="#">Sign up</a></p>
+		</div>
+		<div class="apps">
+			<p>Get the app.</p>
+			<div class="icons">
+				<a href="#"><img src="appstore.png" alt="appstore"></a>
+				<a href="#"><img src="googleplay.png" alt="googleplay"></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="links">
+			<ul>
+				<li><a href="#">ABOUT US</a></li>
+				<li><a href="#">SUPPORT</a></li>
+				<li><a href="#">PRESS</a></li>
+				<li><a href="#">API</a></li>
+				<li><a href="#">JOBS</a></li>
+				<li><a href="#">PRIVACY</a></li>
+				<li><a href="#">TERMS</a></li>
+				<li><a href="#">DIRECTORY</a></li>
+				<li><a href="#">PROFILES</a></li>
+				<li><a href="#">HASHTAGS</a></li>
+				<li><a href="#">LANGUAGE</a></li>
+			</ul>
+		</div>
+		<div class="copyright">
+			© 2019 INSTAGRAM
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-sample-login-page/index.html at main · erensenell/sample-login-page
